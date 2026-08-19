@@ -1,4 +1,4 @@
-# Gaia Nexus Functional Skill Bundle Architecture
+# Gaia Nexus Skills Index
 
 **Master v3.2**
 
