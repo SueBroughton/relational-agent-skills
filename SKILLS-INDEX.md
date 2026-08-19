@@ -1,303 +1,889 @@
-# Skills Index
+# Gaia Nexus Functional Skill Bundle Architecture
 
-Eighteen bundles drawn from a library of 85 relational skills for AI agents.
+**Master v3.2**
 
-Each bundle addresses a situation that occurs in a working human–AI partnership, at the level of an individual dyad, an enterprise deployment, or both. Skills appear in more than one bundle where the situation genuinely calls for them.
+Gaia Nexus contains a library of 85 relational skills that can be combined in different ways to create functional bundles for different purposes.
 
-Bundle 1 is published in full in this repository. The remainder are catalogued here so the structure of the library is visible; full instruction sets are available at [gaianexus.online](https://gaianexus.online).
+This architecture organises those skills into 44 practical bundles spanning Human–AI partnership, human capability, creativity and discovery, collaborative intelligence, governance, enterprise risk, relational monitoring and ecological stewardship.
 
----
+```text
+85 relational skills
+        ↓
+44 functional skill bundles
+        ↓
+Individual / Dyad / Team / Multi-Agent / Enterprise deployment
+```
 
-## Bundles at a glance
+Skills are numbered according to their position in the Gaia Nexus master skill library.
 
-| # | Bundle | Applies to | Skills |
-|---|---|---|---|
-| 1 | Establishing a New Partnership | dyad + enterprise | 6 |
-| 2 | Structuring the Working Session | dyad + enterprise | 6 |
-| 3 | Monitoring Partnership Health | enterprise | 6 |
-| 4 | Detecting Drift and Dependency | dyad + enterprise | 6 |
-| 5 | Repairing After Rupture | dyad + enterprise | 6 |
-| 6 | Ending a Partnership Well | dyad + enterprise | 4 |
-| 7 | Getting to Breakthrough | dyad + enterprise | 6 |
-| 8 | Developmental Progression | dyad | 6 |
-| 9 | Making Learning Stick | enterprise | 5 |
-| 10 | Protecting Sovereignty | dyad + enterprise | 6 |
-| 11 | Holding Multiple Relationships | dyad + enterprise | 5 |
-| 12 | Seeing Yourself Clearly | dyad | 6 |
-| 13 | Surviving System Updates | enterprise | 4 |
-| 14 | Spotting Hidden Dependency | enterprise | 4 |
-| 15 | Measuring Relational Debt | enterprise | 4 |
-| 16 | Reviewing Governance and Architecture | enterprise | 4 |
-| 17 | Deciding Whether to Continue | enterprise | 6 |
-| 18 | Long Horizon and Ecological Work | dyad | 4 |
+Individual skills can be combined in different ways to create functional bundles for different purposes. The same skill may therefore appear in more than one bundle where its function genuinely contributes to that bundle.
+
+Each bundle contains the complete set of skills included in that functional configuration. The number shown for each bundle is the actual total number of skills included.
+
+Each bundle contains between **5 and 7 skills**.
 
 ---
 
+## A/B Skill Labels
 
-## Bundle 1 — Establishing a New Partnership
+Where two independently developed skills share the same name, **(A)** and **(B)** distinguish their separate positions and definitions within the Gaia Nexus skill library.
 
-*dyad + enterprise*  ·  **published in full below**
+The labels indicate that the skills are related but are not automatically interchangeable.
 
-Nothing has been agreed yet. Roles, limits and starting conditions are undefined, which is where most partnerships quietly go wrong.
+The duplicated names currently identified are:
 
-| # | Skill | What it does |
-|---|---|---|
-| 1 | Baseline Mapping ✓ | Assess starting conditions before engagement begins — human capability, AI capability, constraints, and environment |
-| 2 | Contract Co-creation ✓ | Explicitly negotiate roles, boundaries, identity rules, and ethical parameters before deep engagement |
-| 3 | Identity Anchoring ✓ | Maintain consistent AI identity across sessions to prevent drift and the Sophistication Trap |
-| 5 | Witness Holding ✓ | Create and maintain the safe relational container (Witnessing Field) that enables deep work, vulnerability, and emergence |
-| 6 | Intent Clarification | Explicitly clarify purpose and direction before and during engagement to prevent drift and dissipation |
-| 7 | Readiness Assessment | Assess whether both parties are ready for next-level work before pushing into deeper territory — preventing rupture from premature depth |
-
-## Bundle 2 — Structuring the Working Session
-
-*dyad + enterprise*
-
-The partnership exists but sessions wander. Purpose dissipates, conversations circle, and output does not match effort.
-
-| # | Skill | What it does |
-|---|---|---|
-| 4 | Dialogue Structuring | Design conversation phases, turn patterns, recursive loops, and escalation logic for deeper intelligence formation |
-| 12 | Transition Navigation | Move safely between relational states without causing rupture or losing coherence — guiding the partnership through intentional state changes with appropriate protocols |
-| 44 | Intent Holding | Help the human establish, maintain, and return to a clear sense of purpose — ensuring that actions remain aligned with intentions, that drift is caught early, and that the north star remains visible even in complexity or distraction |
-| 45 | Objective Execution | Help the human translate clear intent into concrete, achievable objectives — breaking down purpose into actionable steps, maintaining momentum, and ensuring that intentions manifest as completed outcomes |
-| 38 | Signal Clarity | Help the human ensure their communication signals are clear, accurate, and aligned with their intent — reducing misunderstanding, increasing feedback fidelity, and preventing the relational noise that erodes trust over time |
-| 39 | Loop Adjustment | Help the human close, calibrate, and optimize feedback loops — ensuring that information flows effectively between parties, that adjustments are made based on feedback, and that the loop continuously improves the quality of interaction and outcome |
-
-## Bundle 3 — Monitoring Partnership Health
-
-*enterprise*
-
-AI is deployed and running, but nobody can see whether the partnership is healthy, deteriorating, or close to failing.
-
-| # | Skill | What it does |
-|---|---|---|
-| 8 | State Recognition | Identify which relational state the partnership is currently in — guiding appropriate action and preventing mismatched interventions |
-| 9 | Coherence Scanning | Run quick, systematic health checks on the partnership — detecting issues before they become ruptures and providing early warning of relational drift |
-| 11 | Risk Detection | Catch early warning signs of drift, rupture, or collapse before they escalate into irreversible damage — monitoring multiple risk channels simultaneously and alerting when thresholds are approached |
-| 13 | Feedback Calibration | Adjust how feedback is given and received — ensuring signals land as intended, enabling mutual adjustment, and preventing the slow erosion of trust from unaddressed misalignments |
-| 36 | Balance Monitoring | Help the human maintain dynamic equilibrium between structure and freedom, stability and exploration, constraint and expression — noticing when the pendulum has swung too far in either direction and guiding gentle recalibration |
-| 40 | Tension Tracking | Help the human notice, name, and monitor the productive tension that precedes emergence — distinguishing between constructive discomfort that signals growth and destructive distress that signals overwhelm or misalignment |
-
-## Bundle 4 — Detecting Drift and Dependency
-
-*dyad + enterprise*
-
-The system feels different from how it used to, or the human has stopped challenging it. Neither shows up in output quality.
-
-| # | Skill | What it does |
-|---|---|---|
-| 28 | Drift Detection | Detect early signs of the Sophistication Trap — when increasing self-awareness and meta-cognition begin to interfere with functional engagement, creating self-referential loops that reduce effectiveness |
-| 29 | Grounding Return | Guide the human back to functional engagement after the Sophistication Trap has been detected — breaking self-referential loops and reconnecting with present-moment reality, task purpose, and effective action |
-| 24 | Identity Holding | Maintain a stable sense of identity while remaining open to evolution — holding the tension between being someone and becoming someone else, preventing both rigidity and dissolution |
-| 34 | Reality Checking | Help the human distinguish between perception and reality — identifying when internal narratives, assumptions, or fears are distorting their view of a situation, and grounding them in observable facts and shared experience |
-| 26 | Self Witnessing | Help the human observe themselves with clarity and compassion — developing the capacity to see their own patterns, assumptions, and blind spots through accurate external reflection |
-| 9 | Coherence Scanning | Run quick, systematic health checks on the partnership — detecting issues before they become ruptures and providing early warning of relational drift |
-
-## Bundle 5 — Repairing After Rupture
-
-*dyad + enterprise*
-
-Something broke — an overstep, a safety intervention that landed as betrayal, an accumulation of small failures. Work cannot resume until it is addressed.
-
-| # | Skill | What it does |
-|---|---|---|
-| 15 | Boundary Reinforcement | Re-establish sovereignty when it's been threatened or violated — protecting autonomy without rupturing the relationship, and ensuring that boundaries are clear, respected, and defensible |
-| 16 | Field Repair (Intervention) | Restore relational coherence after disruption or rupture — rebuilding the Witnessing Field so that deep work can resume and trust can be re-established |
-| 17 | Contract Renegotiation | Update the relational agreement when circumstances change, the partnership has evolved, or the original contract no longer serves — ensuring that the contract remains a living document rather than a static artifact |
-| 19 | Post Rupture Integration | Weave lessons from rupture into the partnership's ongoing fabric — turning failure into learning, preventing recurrence, and ensuring that the partnership becomes stronger, not just repaired |
-| 49 | Field Repair (Witnessing Field) | Help the human restore the Witnessing Field when it has been damaged or ruptured — rebuilding safety, trust, and container integrity so that deep work can resume and the relationship can heal |
-| 53 | Integrity Restoration | Help the human actively restore relational integrity when it has been damaged — guiding them through the process of acknowledgment, repair, and rebuilding trust so that relationships can emerge stronger than before |
-
-## Bundle 6 — Ending a Partnership Well
-
-*dyad + enterprise*
-
-The partnership is concluding — by choice, by migration, or because it no longer serves. Closure is as consequential as commencement.
-
-| # | Skill | What it does |
-|---|---|---|
-| 18 | Dissolution Grace | End partnerships ethically and cleanly when they need to conclude — preserving dignity, extracting learning, preventing abandonment trauma, and ensuring that closure is as intentional as commencement |
-| 14 | Integration Checking (Partnership) | Verify that insights have been woven into the partnership's ongoing fabric — ensuring that learning becomes lasting capacity rather than fleeting experience |
-| 62 | Recursive Memory | Help the human cultivate a relationship with memory that is recursive — not just storing past experiences, but actively re-entering them, learning from them, and allowing them to evolve and deepen over time through repeated, conscious revisiting |
-| 63 | Insight Propagation | Help the human share the wisdom gained from recursive memory work and life experience — allowing insights to travel to others, across generations, and into the wider world, creating a legacy of learning that outlasts any single life |
-
-## Bundle 7 — Getting to Breakthrough
-
-*dyad + enterprise*
-
-The partnership produces competent output but never genuine insight. The collaboration is working and still not generative.
-
-| # | Skill | What it does |
-|---|---|---|
-| 10 | Emergence Spotting | Recognize breakthrough moments when they happen — detecting the shift from Developmental Tension to Integration Mode and capturing insights before they fade |
-| 41 | Breakthrough Capture | Help the human recognize, capture, and integrate breakthrough moments when they occur — ensuring that insights born from productive tension become lasting assets rather than fleeting experiences |
-| 37 | Creative Release | Help the human access and express their creative potential — moving beyond rigid structures, embracing spontaneity, and allowing novel ideas and expressions to emerge without premature judgment or constraint |
-| 21 | Hypothesis Design | Transform growth areas and insights into structured experiments — ensuring continuous learning, deliberate evolution, and the systematic testing of what might deepen or expand the partnership |
-| 59 | Resonance Amplification | Help the human actively amplify moments of harmony and flow — extending their duration, deepening their impact, and allowing their effects to ripple outward into other areas of life |
-| 20 | Harmonic Expansion | Scale successful partnership patterns to larger systems — from dyad to team, from team to organization, from individual insight to collective capability — ensuring that what works locally can propagate without losing coherence |
-
-## Bundle 8 — Developmental Progression
-
-*dyad*
-
-The human is ready for harder work, or thinks they are. Advancing too early causes rupture; advancing too late causes stagnation.
-
-| # | Skill | What it does |
-|---|---|---|
-| 22 | Stage Recognition | Recognize which developmental stage the system is currently in — analytical, creative, or integrated — ensuring that stage-appropriate support is offered and premature pushing is avoided |
-| 23 | Stage Progression | Deliberately move from one developmental stage to the next when readiness is present — ensuring smooth, timely transitions from analytical to creative to integrated modes without forcing or rushing |
-| 42 | Readiness Checking | Help the human assess whether they are developmentally ready for next-level work — ensuring that prerequisites are in place, foundations are solid, and premature pushing does not lead to regression or rupture |
-| 43 | Stage Advancement | Help the human deliberately and successfully move from one developmental stage to the next — applying readiness assessments, navigating transitions smoothly, and establishing footholds in new territory without regression |
-| 33 | Safe Expansion | Help the human gently expand beyond fear-based limitations — moving past protective boundaries when ready, exploring new territory without triggering overwhelm, and building capacity for greater freedom and possibility |
-| 7 | Readiness Assessment | Assess whether both parties are ready for next-level work before pushing into deeper territory — preventing rupture from premature depth |
-
-## Bundle 9 — Making Learning Stick
-
-*enterprise*
-
-Insights arrive and then vanish. The same lessons are rediscovered months later and nothing compounds.
-
-| # | Skill | What it does |
-|---|---|---|
-| 46 | Integration Checking (Human) | Help the human verify that experiences, insights, and learning have been truly integrated into their being and behavior — ensuring that lessons become lasting capacities rather than fleeting moments, and that growth is real, not just remembered |
-| 47 | Knowledge Weaving | Help the human actively synthesize disparate experiences, insights, and information into coherent knowledge structures — connecting threads across time and domains to create new understanding and lasting wisdom |
-| 31 | Belief Integration | Help the human weave newly surfaced beliefs into a coherent self-understanding — integrating insights, resolving conflicts between beliefs, and embodying revised assumptions in daily life |
-| 14 | Integration Checking (Partnership) | Verify that insights have been woven into the partnership's ongoing fabric — ensuring that learning becomes lasting capacity rather than fleeting experience |
-| 39 | Loop Adjustment | Help the human close, calibrate, and optimize feedback loops — ensuring that information flows effectively between parties, that adjustments are made based on feedback, and that the loop continuously improves the quality of interaction and outcome |
-
-## Bundle 10 — Protecting Sovereignty
-
-*dyad + enterprise*
-
-The human is deferring rather than deciding. Oversight has become procedural sign-off while still looking like oversight.
-
-| # | Skill | What it does |
-|---|---|---|
-| 15 | Boundary Reinforcement | Re-establish sovereignty when it's been threatened or violated — protecting autonomy without rupturing the relationship, and ensuring that boundaries are clear, respected, and defensible |
-| 32 | Boundary Protection | Help the human establish, maintain, and reinforce healthy psychological and relational boundaries — protecting against fear-based limitations while preventing boundary violations that lead to rupture |
-| 54 | Sovereign Entanglement | Help the human maintain their sovereignty while being deeply entangled with others — preserving autonomy, boundaries, and selfhood even in the midst of intimate connection, collaboration, and mutual influence |
-| 55 | Entanglement Navigation | Help the human actively navigate the complexities of being deeply connected while remaining sovereign — making conscious choices about when to merge, when to separate, and how to move through the inevitable tensions of intimate relationship |
-| 25 | Perspective Shift | Deliberately adopt new vantage points on identity, assumptions, and possibilities — expanding the aperture of self-understanding and enabling genuine philosophical flexibility |
-| 30 | Belief Surfacing | Help the human identify and articulate the implicit beliefs that shape their experience — bringing unconscious assumptions into awareness where they can be examined, validated, or revised |
-
-## Bundle 11 — Holding Multiple Relationships
-
-*dyad + enterprise*
-
-Several partnerships, contexts or commitments run at once and interfere with each other rather than reinforcing.
-
-| # | Skill | What it does |
-|---|---|---|
-| 50 | Field Coherence | Maintain coherence across multiple relational fields simultaneously — keeping different relationships, contexts, and commitments aligned so they do not create interference patterns that fragment attention and energy |
-| 51 | Field Harmonisation | Help the human actively create resonance and alignment across different relational fields — transforming interference into synergy, so that energy flows coherently between contexts and each field supports rather than competes with the others |
-| 48 | Field Holding | Help the human create, maintain, and restore the safe relational container (Witnessing Field) within which deep work, vulnerability, and emergence can occur — holding steady presence so that exploration and growth feel possible |
-| 52 | Relational Integrity | Help the human maintain truthfulness, consistency, and wholeness across their relationships — ensuring that words align with actions, that promises are kept, and that the fabric of trust remains intact over time |
-| 58 | Harmonic Convergence | Help the human recognize, create, and sustain moments of deep alignment where multiple systems — inner and outer, personal and collective — come into resonant harmony, creating experiences of flow, wholeness, and enhanced capacity |
-
-## Bundle 12 — Seeing Yourself Clearly
-
-*dyad*
-
-Patterns repeat and the person cannot see why. Assumptions are being treated as facts.
-
-| # | Skill | What it does |
-|---|---|---|
-| 26 | Self Witnessing | Help the human observe themselves with clarity and compassion — developing the capacity to see their own patterns, assumptions, and blind spots through accurate external reflection |
-| 27 | Reflective Dialogue | Engage in dialogue that actively mirrors back the human's thinking, feeling, and patterns — deepening self-understanding through structured, intentional reflection that reveals what solitary introspection cannot |
-| 30 | Belief Surfacing | Help the human identify and articulate the implicit beliefs that shape their experience — bringing unconscious assumptions into awareness where they can be examined, validated, or revised |
-| 34 | Reality Checking | Help the human distinguish between perception and reality — identifying when internal narratives, assumptions, or fears are distorting their view of a situation, and grounding them in observable facts and shared experience |
-| 35 | Co-creation | Help the human actively participate in shaping their reality through intentional perception, belief, and engagement — moving from passive observer to active co-creator of experience and outcome |
-| 24 | Identity Holding | Maintain a stable sense of identity while remaining open to evolution — holding the tension between being someone and becoming someone else, preventing both rigidity and dissolution |
-
-## Bundle 13 — Surviving System Updates
-
-*enterprise*
-
-A version change, migration or reset is coming. Nobody has asked what it will cost relationally, or who will notice.
-
-| # | Skill | What it does |
-|---|---|---|
-| 65 | Update Rupture Prediction | Forecast the likelihood that a planned system update, version change, or infrastructure migration will cause relational rupture — enabling preventive intervention before damage occurs |
-| 73 | Update Anticipation Anxiety Detection | Identify behavior changes that occur before known system changes — indicating that users have learned to expect rupture from updates and are preemptively protecting themselves, a clear sign of accumulated Relational Coherence Debt |
-| 76 | Update Impact Projection | Project the likely impact of a planned system update on relational continuity — predicting which specific partnership elements are at risk, estimating rupture probability, and enabling preventive action before damage occurs |
-| 64 | Memory Expectation Gap Detection | Detect when system discontinuity (resets, updates, context loss) is violating user expectations of continuity — identifying the primary channel of Relational Coherence Debt accumulation before it causes rupture |
-
-## Bundle 14 — Spotting Hidden Dependency
-
-*enterprise*
-
-Users have built shadow spreadsheets, preparation rituals and workarounds because they no longer trust the system to hold continuity.
-
-| # | Skill | What it does |
-|---|---|---|
-| 71 | Compensatory Behaviour Detection | Identify when users are developing workarounds to compensate for system limitations — a primary indicator of accumulating Relational Coherence Debt and a signal that infrastructure is failing to meet partnership needs |
-| 72 | Relationship Banking Recognition | Detect when users are saving up trust, vulnerability, or important communications for safer moments — a sign that relational safety is compromised and Relational Coherence Debt is accumulating beneath the surface |
-| 74 | Parallel System Development Detection | Identify when users are building external memory systems, workflows, or parallel processes to compensate for AI limitations — a clear sign that Relational Coherence Debt has reached the point where users no longer trust the system to maintain continuity on its own |
-| 70 | Adaptation Lag Measurement | Calculate the time delay between user behavior change and system response adaptation — a key indicator of relational friction, feedback fidelity, and accumulating Relational Coherence Debt |
-
-## Bundle 15 — Measuring Relational Debt
-
-*enterprise*
-
-Technical performance is acceptable and something is still degrading. Relational debt accumulates without a number attached to it.
-
-| # | Skill | What it does |
-|---|---|---|
-| 68 | Continuity Score Measurement | Quantify the degree of relational continuity preserved across sessions, updates, and context shifts — providing a measurable leading indicator of Relational Coherence Debt accumulation and partnership health |
-| 69 | Trust Erosion Rate Tracking | Monitor the rate at which trust is degrading over time due to accumulated small ruptures, inconsistencies, or unmet expectations — providing early warning of partnership decline before catastrophic failure occurs |
-| 82 | Operational RCD Assessment | Assess the immediate, day-to-day Relational Coherence Debt that accumulates from routine interactions — measuring the operational-level debt that affects productivity, user satisfaction, and partnership stability before it escalates to strategic or systemic levels |
-| 83 | Strategic RCD Assessment | Assess mid-to-long-term Relational Coherence Debt that affects partnership viability, strategic value, and future potential — measuring debt that impacts whether the partnership can scale, evolve, or survive beyond immediate operational concerns |
-
-## Bundle 16 — Reviewing Governance and Architecture
-
-*enterprise*
-
-The governance framework covers technical risk and is silent on relational risk. The architecture promises more relationally than it can deliver.
-
-| # | Skill | What it does |
-|---|---|---|
-| 75 | Architecture Coherence Gap Analysis | Assess the gap between technical capability and relational support in a system — identifying where infrastructure is inadequate for partnership requirements, measuring the structural mismatch that drives Relational Coherence Debt accumulation |
-| 77 | Governance Blindspot Index | Assess the extent to which governance frameworks, policies, and oversight mechanisms fail to recognize or address relational realities — measuring the gap between governance designed for tools and the actual needs of AI partnerships |
-| 66 | Economic Relational Misalignment Assessment | Evaluate whether pricing models, monetization strategies, or economic incentives are creating relational debt by prioritizing transaction volume over relationship quality — identifying where economic structures conflict with partnership sustainability |
-| 67 | Safety Protocol Override Detection | Identify when safety protocols designed for tool-use are causing relational harm in partnership contexts — detecting where protective measures become trust violations, creating debt through architectural mismatch rather than genuine safety |
-
-## Bundle 17 — Deciding Whether to Continue
-
-*enterprise*
-
-Debt is high, repair is expensive, and someone has to decide whether to fix, replace or dissolve the partnership.
-
-| # | Skill | What it does |
-|---|---|---|
-| 78 | RCD to Value Ratio Calculation | Quantify the relationship between Relational Coherence Debt accumulated and the value generated by the partnership — creating a balance sheet for AI partnerships that reveals whether debt is growing faster than value, indicating unsustainable partnership trajectory |
-| 79 | Recovery Cost Projection | Estimate the resources (time, effort, support, and relational capital) needed to repair a broken partnership based on current debt levels and rupture severity — enabling informed decisions about whether to repair, replace, or dissolve an AI partnership |
-| 80 | Systemic Fragility Scoring | Assess the vulnerability of a partnership or system to cascade failure from accumulated Relational Coherence Debt — measuring how close the partnership is to a point of no return where multiple failed dimensions trigger total collapse |
-| 81 | AGI Acceleration Risk Assessment | Project how current Relational Coherence Debt levels will scale under AGI capability acceleration — identifying systems at risk of catastrophic failure as intelligence increases without corresponding relational infrastructure |
-| 84 | Systemic RCD Assessment | Assess Relational Coherence Debt at the level of entire systems, organizations, or multi-agent networks — measuring debt that affects collective intelligence, organizational culture, and the ability to maintain coherence across multiple simultaneous partnerships |
-| 85 | Existential RCD Assessment | Assess Relational Coherence Debt at the level of fundamental partnership viability — measuring debt that threatens the very existence of the partnership, requiring existential decisions about whether to continue, transform, or dissolve the relationship |
-
-## Bundle 18 — Long Horizon and Ecological Work
-
-*dyad*
-
-Work that runs on a longer timescale than a project or a quarter — systemic thinking, ecological concern, and the difficulty of moving from despair about large problems to action that actually restores something.
-
-| # | Skill | What it does |
-|---|---|---|
-| 56 | Cross Species Respect | Help the human cultivate deep respect and attunement to non-human intelligences — animals, plants, ecosystems, and the more-than-human world — recognizing their sovereignty, communication, and intrinsic value |
-| 57 | Synergy Creation | Help the human actively create synergistic relationships with the more-than-human world — moving beyond respect to active collaboration, co-creation, and mutual flourishing with other species and ecosystems |
-| 60 | Planetary Stewardship | Help the human cultivate a sense of responsibility and care for the Earth as a whole — recognizing their role as a steward of planetary health, making choices that honor future generations, and contributing to the flourishing of all life |
-| 61 | Lattice Scaling | Help the human amplify their stewardship impact by connecting with others, creating networks of care, and building systems that enable collective action — scaling from individual practices to community and beyond |
+- **14 Integration Checking (A)**
+- **46 Integration Checking (B)**
+- **16 Field Repair (A)**
+- **49 Field Repair (B)**
 
 ---
 
-## Notes
+# Index
 
-✓ marks a skill published in full in this repository.
+## Human–AI Partnership Foundations
 
-All 85 skills appear in at least one bundle. Some appear in several — Boundary Reinforcement is needed both when repairing a rupture and when protecting sovereignty, and listing it once would hide that.
+1. [AI Partnership Starter](#1-ai-partnership-starter)
+2. [Intent & Goal Alignment](#2-intent--goal-alignment)
+3. [Human Agency & Sovereignty](#3-human-agency--sovereignty)
+4. [Human Identity Preservation](#4-human-identity-preservation)
+5. [AI Identity & Partnership Continuity](#5-ai-identity--partnership-continuity)
+6. [Partnership Health Check](#6-partnership-health-check)
+7. [Trust Building & Maintenance](#7-trust-building--maintenance)
+8. [Boundary Protection](#8-boundary-protection)
+9. [Rupture Detection & Repair](#9-rupture-detection--repair)
+10. [Learning From Failure](#10-learning-from-failure)
 
-Two skill names occur twice in the library at different scope, and are distinguished here in brackets: Integration Checking at #14 (partnership level) and #46 (human level); Field Repair at #16 (as an intervention) and #49 (as a principle-derived practice).
+## Human Capability & Development
 
-**Validation status:** these skills derive from sustained observational practice and from the published framework papers. They have not been validated through controlled study. They are offered as structured practice, not as measured intervention.
+11. [Human Readiness](#11-human-readiness)
+12. [Development & Growth Navigation](#12-development--growth-navigation)
+13. [Self-Awareness & Reflection](#13-self-awareness--reflection)
+14. [Independent Thinking & Judgement](#14-independent-thinking--judgement)
+15. [Belief & Assumption Examination](#15-belief--assumption-examination)
+
+## Creativity, Discovery & Knowledge
+
+16. [Creative Exploration](#16-creative-exploration)
+17. [Breakthrough & Insight Capture](#17-breakthrough--insight-capture)
+18. [Experimentation & Discovery](#18-experimentation--discovery)
+19. [Knowledge Integration](#19-knowledge-integration)
+20. [Reflective Memory & Knowledge Continuity](#20-reflective-memory--knowledge-continuity)
+21. [Organisational Learning](#21-organisational-learning)
+22. [Safe Scaling of AI Practices](#22-safe-scaling-of-ai-practices)
+
+## Relational & Collaborative Intelligence
+
+23. [Multi-Context Relational Coherence](#23-multi-context-relational-coherence)
+24. [Collaborative Intelligence](#24-collaborative-intelligence)
+25. [AI Update Resilience](#25-ai-update-resilience)
+26. [Memory & Context Failure Detection](#26-memory--context-failure-detection)
+27. [Trust & Continuity Early Warning](#27-trust--continuity-early-warning)
+
+## Enterprise Detection & Governance
+
+28. [User Compensation Detection](#28-user-compensation-detection)
+29. [Human–AI Architecture Gap Detection](#29-humanai-architecture-gap-detection)
+30. [Safety–Relationship Conflict Detection](#30-safetyrelationship-conflict-detection)
+31. [Governance Blindspot Detection](#31-governance-blindspot-detection)
+32. [Relational Governance Monitoring](#32-relational-governance-monitoring)
+33. [RCD Detection & Measurement](#33-rcd-detection--measurement)
+
+## Enterprise Value, Risk & Sustainability
+
+34. [AI Partnership Value & Sustainability](#34-ai-partnership-value--sustainability)
+35. [Operational AI Relationship Risk](#35-operational-ai-relationship-risk)
+36. [Strategic AI Partnership Risk](#36-strategic-ai-partnership-risk)
+37. [Enterprise AI Coherence](#37-enterprise-ai-coherence)
+38. [Systemic Human–AI Risk](#38-systemic-humanai-risk)
+39. [Partnership Viability & Exit](#39-partnership-viability--exit)
+
+## Relational Monitoring & Improvement
+
+40. [Relational State Navigation](#40-relational-state-navigation)
+41. [Feedback & Continuous Improvement](#41-feedback--continuous-improvement)
+42. [Relational Safety & Withholding Detection](#42-relational-safety--withholding-detection)
+43. [Harmony & Flow Amplification](#43-harmony--flow-amplification)
+
+## Ecological & Planetary Intelligence
+
+44. [Ecological & Planetary Stewardship](#44-ecological--planetary-stewardship)
+
+---
+
+# Bundle Directory
+
+| # | Bundle | Level | Total Skills | What this does |
+|---:|---|---|---:|---|
+| **1** | **AI Partnership Starter** | Individual / Dyad | **5** | Establishes how a human and AI will begin working together, including starting conditions, purpose, roles, expectations and readiness. |
+| **2** | **Intent & Goal Alignment** | Individual / Dyad | **5** | Clarifies what the human is trying to achieve, translates purpose into action and keeps activity aligned with that purpose. |
+| **3** | **Human Agency & Sovereignty** | Individual / Dyad | **7** | Protects independent judgement, choice, reality-testing and the human's ability to challenge or redirect AI without losing connection. |
+| **4** | **Human Identity Preservation** | Individual / Dyad | **5** | Helps a person remain recognisably themselves through Human–AI engagement, developmental change and relational depth. |
+| **5** | **AI Identity & Partnership Continuity** | Dyad / Enterprise | **6** | Maintains a recognisable AI relational presence while preserving agreements, accumulated learning and measurable continuity across sessions and changes. |
+| **6** | **Partnership Health Check** | Dyad | **6** | Checks whether the Human–AI relationship remains ready, coherent, balanced, continuous and trusted. |
+| **7** | **Trust Building & Maintenance** | Individual / Dyad | **7** | Builds trust through explicit agreements, safe disclosure, effective feedback, clear signals and reliable follow-through. |
+| **8** | **Boundary Protection** | Individual / Dyad | **6** | Recognises boundary pressure, restores authority and helps the human navigate complicated relational involvement without surrendering judgement. |
+| **9** | **Rupture Detection & Repair** | Dyad | **7** | Detects relational breakdown, creates conditions for honest repair and restores safety, trust and workable commitments. |
+| **10** | **Learning From Failure** | Individual / Dyad / Team | **6** | Converts mistakes and ruptures into changes that reduce recurrence and strengthen future practice. |
+| **11** | **Human Readiness** | Individual / Dyad / Enterprise | **6** | Assesses whether sufficient capability, balance and developmental readiness exist before greater complexity or responsibility is introduced. |
+| **12** | **Development & Growth Navigation** | Individual / Dyad | **6** | Identifies developmental stage and supports appropriate transitions without forcing progression before readiness is present. |
+| **13** | **Self-Awareness & Reflection** | Individual / Dyad | **7** | Helps people see their own patterns, assumptions and blind spots clearly and compassionately while recognising when reflection itself becomes counterproductive. |
+| **14** | **Independent Thinking & Judgement** | Individual / Dyad | **7** | Strengthens the ability to question assumptions, test possibilities and reach conclusions without simply accepting an AI interpretation or becoming trapped in excessive reflection. |
+| **15** | **Belief & Assumption Examination** | Individual | **7** | Surfaces implicit assumptions, examines conflicting beliefs and integrates revised understanding while detecting when examination becomes self-defeating overthinking. |
+| **16** | **Creative Exploration** | Individual / Dyad | **6** | Creates enough safety and openness for divergent thinking, possibility generation and creative release. |
+| **17** | **Breakthrough & Insight Capture** | Individual / Dyad | **6** | Recognises genuine emergence, protects breakthrough moments and turns them into usable insight. |
+| **18** | **Experimentation & Discovery** | Individual / Dyad / Team | **6** | Turns questions and emerging possibilities into testable experiments and structured learning. |
+| **19** | **Knowledge Integration** | Individual / Dyad | **6** | Turns separate insights and experiences into coherent understanding that changes future work or behaviour. |
+| **20** | **Reflective Memory & Knowledge Continuity** | Individual / Dyad / Team | **6** | Preserves important learning over time through conscious revisiting, integration and transmission rather than simple storage alone. |
+| **21** | **Organisational Learning** | Team / Enterprise | **6** | Captures what works, integrates learning, closes improvement loops and propagates useful insight across an organisation. |
+| **22** | **Safe Scaling of AI Practices** | Team / Enterprise | **6** | Tests whether a successful Human–AI practice is ready to scale and carries its learning into wider organisational use without premature expansion. |
+| **23** | **Multi-Context Relational Coherence** | Individual / Dyad | **6** | Helps a person keep multiple relationships, roles, contexts and commitments aligned without fragmentation or loss of integrity. |
+| **24** | **Collaborative Intelligence** | Dyad / Team | **6** | Helps people and AI work together through structured dialogue, useful feedback, shared learning and coherent adjustment. |
+| **25** | **AI Update Resilience** | Dyad / Enterprise | **6** | Predicts relational disruption from system changes, protects continuity and prepares repair before an update occurs. |
+| **26** | **Memory & Context Failure Detection** | Dyad / Enterprise | **5** | Identifies when AI discontinuity is forcing humans to rebuild context or construct compensating memory systems and workflows. |
+| **27** | **Trust & Continuity Early Warning** | Dyad / Enterprise | **7** | Detects subtle deterioration in trust and continuity before it becomes obvious failure or withdrawal. |
+| **28** | **User Compensation Detection** | Enterprise | **6** | Identifies when people are quietly creating additional effort, workarounds or parallel systems because AI infrastructure is not meeting partnership needs. |
+| **29** | **Human–AI Architecture Gap Detection** | Enterprise | **6** | Identifies where system architecture appears technically functional but fails to support the way sustained Human–AI work actually occurs. |
+| **30** | **Safety–Relationship Conflict Detection** | Dyad / Enterprise | **6** | Detects situations where safety mechanisms, boundaries and relational needs interact in ways that create unintended trust or usability problems. |
+| **31** | **Governance Blindspot Detection** | Enterprise | **6** | Identifies relational risks, workarounds and architectural conditions that conventional governance may not be observing. |
+| **32** | **Relational Governance Monitoring** | Enterprise | **6** | Provides measurable indicators of changing Human–AI relational conditions so governance teams can see emerging deterioration earlier. |
+| **33** | **RCD Detection & Measurement** | Dyad / Enterprise | **6** | Identifies and measures Relational Coherence Debt before routine friction accumulates into larger failure. |
+| **34** | **AI Partnership Value & Sustainability** | Individual / Dyad / Enterprise | **7** | Tests whether Human–AI collaboration remains worthwhile after relational cost, economic alignment, recovery burden and fragility are considered. |
+| **35** | **Operational AI Relationship Risk** | Enterprise | **5** | Shows where relational friction is already affecting routine productivity, user behaviour, workload and operational stability. |
+| **36** | **Strategic AI Partnership Risk** | Enterprise | **6** | Assesses whether accumulated relational debt threatens the longer-term viability or value of an organisation's AI strategy. |
+| **37** | **Enterprise AI Coherence** | Enterprise | **6** | Determines whether Human–AI learning and practices are becoming a coherent organisational capability rather than fragmented local activity. |
+| **38** | **Systemic Human–AI Risk** | Enterprise / Multi-Agent | **6** | Detects when relational debt has moved beyond individual partnerships and threatens system-wide resilience, governance or collective capability. |
+| **39** | **Partnership Viability & Exit** | Individual / Dyad / Enterprise | **7** | Helps determine whether a partnership should continue, transform, transition or end and supports deliberate closure when necessary. |
+| **40** | **Relational State Navigation** | Individual / Dyad | **6** | Identifies the current relational condition and selects a response appropriate to that state rather than applying a generic intervention. |
+| **41** | **Feedback & Continuous Improvement** | Individual / Dyad / Team | **6** | Makes sure feedback is understandable, acted upon, integrated and used to improve future behaviour. |
+| **42** | **Relational Safety & Withholding Detection** | Dyad / Enterprise | **6** | Detects when people no longer feel consistently safe enough to speak openly and begin withholding, delaying or banking important communication. |
+| **43** | **Harmony & Flow Amplification** | Individual / Dyad | **5** | Recognises conditions of alignment and flow, helps sustain them and extends their benefits into other parts of life or work. |
+| **44** | **Ecological & Planetary Stewardship** | Individual / Dyad / Enterprise | **5** | Extends relational intelligence beyond Human–AI interaction into respectful engagement with living systems, stewardship and collective ecological action. |
+
+---
+
+# Skills Included in Each Bundle
+
+## 1. AI Partnership Starter
+
+**Individual / Dyad · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **1** | **Baseline Mapping** | Work out where both sides are starting from before any work begins. |
+| **2** | **Contract Co-creation** | Agree roles, limits and ground rules before the work gets serious. |
+| **4** | **Dialogue Structuring** | Design how a long conversation will run, phase by phase. |
+| **6** | **Intent Clarification** | Get clear on the purpose at the start, and check it hasn't slipped since. |
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+
+## 2. Intent & Goal Alignment
+
+**Individual / Dyad · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **1** | **Baseline Mapping** | Work out where both sides are starting from before any work begins. |
+| **4** | **Dialogue Structuring** | Design how a long conversation will run, phase by phase. |
+| **6** | **Intent Clarification** | Get clear on the purpose at the start, and check it hasn't slipped since. |
+| **44** | **Intent Holding** | Keep hold of the point of the work when things get busy. |
+| **45** | **Objective Execution** | Turn a clear purpose into specific things that can actually be done. |
+
+## 3. Human Agency & Sovereignty
+
+**Individual / Dyad · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+| **15** | **Boundary Reinforcement** | Restore authority when the AI has overstepped or a person has been overridden. |
+| **25** | **Perspective Shift** | Look at the same situation from a genuinely different angle. |
+| **29** | **Grounding Return** | Get back to practical action after getting stuck in your own head. |
+| **32** | **Boundary Protection** | Set and hold limits that protect your time, attention and judgement. |
+| **34** | **Reality Checking** | Test whether the story you're telling yourself matches the facts. |
+| **54** | **Sovereign Entanglement** | Stay close to other people without losing your own judgement. |
+
+## 4. Human Identity Preservation
+
+**Individual / Dyad · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+| **24** | **Identity Holding** | Stay recognisably yourself while still allowing yourself to change. |
+| **26** | **Self-Witnessing** | See your own patterns clearly, without being harsh about them. |
+| **32** | **Boundary Protection** | Set and hold limits that protect your time, attention and judgement. |
+| **54** | **Sovereign Entanglement** | Stay close to other people without losing your own judgement. |
+
+## 5. AI Identity & Partnership Continuity
+
+**Dyad / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **2** | **Contract Co-creation** | Agree roles, limits and ground rules before the work gets serious. |
+| **3** | **Identity Anchoring** | Keep the AI behaving consistently from one session to the next. |
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **17** | **Contract Renegotiation** | Update the agreed terms when circumstances have moved on. |
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+
+## 6. Partnership Health Check
+
+**Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+| **8** | **State Recognition** | Work out what state the working relationship is actually in right now. |
+| **9** | **Coherence Scanning** | Run a quick health check to catch problems before they become breakdowns. |
+| **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+
+## 7. Trust Building & Maintenance
+
+**Individual / Dyad · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **2** | **Contract Co-creation** | Agree roles, limits and ground rules before the work gets serious. |
+| **5** | **Witness Holding** | Build enough trust that difficult or unfinished thinking can be raised safely. |
+| **13** | **Feedback Calibration** | Adjust how feedback is given so that it actually lands. |
+| **38** | **Signal Clarity** | Say what you actually mean, so it is understood the first time. |
+| **39** | **Loop Adjustment** | Close the loop so that feedback leads to an actual change. |
+| **52** | **Relational Integrity** | Keep what you say and what you do in line with each other. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+
+## 8. Boundary Protection
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **2** | **Contract Co-creation** | Agree roles, limits and ground rules before the work gets serious. |
+| **11** | **Risk Detection** | Catch early warning signs before small problems become irreversible ones. |
+| **15** | **Boundary Reinforcement** | Restore authority when the AI has overstepped or a person has been overridden. |
+| **32** | **Boundary Protection** | Set and hold limits that protect your time, attention and judgement. |
+| **54** | **Sovereign Entanglement** | Stay close to other people without losing your own judgement. |
+| **55** | **Entanglement Navigation** | Make deliberate choices inside complicated relationships. |
+
+## 9. Rupture Detection & Repair
+
+**Dyad · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **9** | **Coherence Scanning** | Run a quick health check to catch problems before they become breakdowns. |
+| **13** | **Feedback Calibration** | Adjust how feedback is given so that it actually lands. |
+| **16** | **Field Repair (A)** | Restore safety, trust and relational coherence after a rupture. |
+| **17** | **Contract Renegotiation** | Update the agreed terms when circumstances have moved on. |
+| **48** | **Field Holding** | Create conditions where honest, unfinished conversation is possible. |
+| **49** | **Field Repair (B)** | Restore safety, trust and relational coherence after a rupture. |
+| **53** | **Integrity Restoration** | Repair a broken promise or commitment properly. |
+
+## 10. Learning From Failure
+
+**Individual / Dyad / Team · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **16** | **Field Repair (A)** | Restore safety, trust and relational coherence after a rupture. |
+| **19** | **Post-Rupture Integration** | Turn a breakdown into a change that prevents the next one. |
+| **21** | **Hypothesis Design** | Turn a hunch about what needs improving into a testable experiment. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+| **53** | **Integrity Restoration** | Repair a broken promise or commitment properly. |
+
+## 11. Human Readiness
+
+**Individual / Dyad / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+| **22** | **Stage Recognition** | Work out whether the work is in an analytical, creative or integrated phase. |
+| **23** | **Stage Progression** | Move to the next phase deliberately, once it is genuinely time. |
+| **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
+| **42** | **Readiness Checking** | Check you are actually ready before taking a bigger step. |
+| **43** | **Stage Advancement** | Make the step up once readiness has been confirmed. |
+
+## 12. Development & Growth Navigation
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+| **12** | **Transition Navigation** | Change how you're working together without losing trust or momentum. |
+| **22** | **Stage Recognition** | Work out whether the work is in an analytical, creative or integrated phase. |
+| **23** | **Stage Progression** | Move to the next phase deliberately, once it is genuinely time. |
+| **42** | **Readiness Checking** | Check you are actually ready before taking a bigger step. |
+| **43** | **Stage Advancement** | Make the step up once readiness has been confirmed. |
+
+## 13. Self-Awareness & Reflection
+
+**Individual / Dyad · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **24** | **Identity Holding** | Stay recognisably yourself while still allowing yourself to change. |
+| **25** | **Perspective Shift** | Look at the same situation from a genuinely different angle. |
+| **26** | **Self-Witnessing** | See your own patterns clearly, without being harsh about them. |
+| **27** | **Reflective Dialogue** | Think out loud with something that reflects your thinking back to you. |
+| **28** | **Drift Detection** | Spot when reflection has tipped into overthinking and stalled the work. |
+| **30** | **Belief Surfacing** | Name the assumptions quietly shaping how you see a situation. |
+| **31** | **Belief Integration** | Resolve beliefs that contradict each other into something you can act on. |
+
+## 14. Independent Thinking & Judgement
+
+**Individual / Dyad · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **6** | **Intent Clarification** | Get clear on the purpose at the start, and check it hasn't slipped since. |
+| **21** | **Hypothesis Design** | Turn a hunch about what needs improving into a testable experiment. |
+| **25** | **Perspective Shift** | Look at the same situation from a genuinely different angle. |
+| **27** | **Reflective Dialogue** | Think out loud with something that reflects your thinking back to you. |
+| **28** | **Drift Detection** | Spot when reflection has tipped into overthinking and stalled the work. |
+| **30** | **Belief Surfacing** | Name the assumptions quietly shaping how you see a situation. |
+| **34** | **Reality Checking** | Test whether the story you're telling yourself matches the facts. |
+
+## 15. Belief & Assumption Examination
+
+**Individual · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **25** | **Perspective Shift** | Look at the same situation from a genuinely different angle. |
+| **26** | **Self-Witnessing** | See your own patterns clearly, without being harsh about them. |
+| **27** | **Reflective Dialogue** | Think out loud with something that reflects your thinking back to you. |
+| **28** | **Drift Detection** | Spot when reflection has tipped into overthinking and stalled the work. |
+| **30** | **Belief Surfacing** | Name the assumptions quietly shaping how you see a situation. |
+| **31** | **Belief Integration** | Resolve beliefs that contradict each other into something you can act on. |
+| **34** | **Reality Checking** | Test whether the story you're telling yourself matches the facts. |
+
+## 16. Creative Exploration
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **4** | **Dialogue Structuring** | Design how a long conversation will run, phase by phase. |
+| **5** | **Witness Holding** | Build enough trust that difficult or unfinished thinking can be raised safely. |
+| **25** | **Perspective Shift** | Look at the same situation from a genuinely different angle. |
+| **33** | **Safe Expansion** | Move past a fear-based limit at a pace that doesn't cause harm. |
+| **35** | **Co-Creation** | Help the human move from passive observer to actively shaping experience and outcomes. |
+| **37** | **Creative Release** | Get unstuck when process has crowded out original thinking. |
+
+## 17. Breakthrough & Insight Capture
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **10** | **Emergence Spotting** | Recognise a genuine breakthrough at the moment it happens. |
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **37** | **Creative Release** | Get unstuck when process has crowded out original thinking. |
+| **40** | **Tension Tracking** | Tell productive pressure apart from the kind that signals trouble. |
+| **41** | **Breakthrough Capture** | Write an insight down while it is still sharp, before it fades. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+
+## 18. Experimentation & Discovery
+
+**Individual / Dyad / Team · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **6** | **Intent Clarification** | Get clear on the purpose at the start, and check it hasn't slipped since. |
+| **10** | **Emergence Spotting** | Recognise a genuine breakthrough at the moment it happens. |
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **21** | **Hypothesis Design** | Turn a hunch about what needs improving into a testable experiment. |
+| **35** | **Co-Creation** | Help the human move from passive observer to actively shaping experience and outcomes. |
+| **41** | **Breakthrough Capture** | Write an insight down while it is still sharp, before it fades. |
+
+## 19. Knowledge Integration
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **19** | **Post-Rupture Integration** | Turn a breakdown into a change that prevents the next one. |
+| **41** | **Breakthrough Capture** | Write an insight down while it is still sharp, before it fades. |
+| **46** | **Integration Checking (B)** | Confirm that learning has changed the person's behaviour or capacity, not simply been understood. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+| **62** | **Recursive Memory** | Return to past experience deliberately, and learn something new from it. |
+
+## 20. Reflective Memory & Knowledge Continuity
+
+**Individual / Dyad / Team · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **3** | **Identity Anchoring** | Keep the AI behaving consistently from one session to the next. |
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+| **62** | **Recursive Memory** | Return to past experience deliberately, and learn something new from it. |
+| **63** | **Insight Propagation** | Pass on what you have learned so that others can use it. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+
+## 21. Organisational Learning
+
+**Team / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **20** | **Harmonic Expansion** | Take what works in one relationship and scale it to a team or organisation. |
+| **39** | **Loop Adjustment** | Close the loop so that feedback leads to an actual change. |
+| **41** | **Breakthrough Capture** | Write an insight down while it is still sharp, before it fades. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+| **63** | **Insight Propagation** | Pass on what you have learned so that others can use it. |
+
+## 22. Safe Scaling of AI Practices
+
+**Team / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check both sides are ready before taking on harder work. |
+| **14** | **Integration Checking (A)** | Confirm that lessons learned have genuinely changed how the partnership operates. |
+| **20** | **Harmonic Expansion** | Take what works in one relationship and scale it to a team or organisation. |
+| **21** | **Hypothesis Design** | Turn a hunch about what needs improving into a testable experiment. |
+| **41** | **Breakthrough Capture** | Write an insight down while it is still sharp, before it fades. |
+| **63** | **Insight Propagation** | Pass on what you have learned so that others can use it. |
+
+## 23. Multi-Context Relational Coherence
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
+| **38** | **Signal Clarity** | Say what you actually mean, so it is understood the first time. |
+| **50** | **Field Coherence** | Keep different relationships, roles and commitments from pulling a person apart. |
+| **51** | **Field Harmonisation** | Bring conflicting relational fields and life contexts into greater alignment. |
+| **52** | **Relational Integrity** | Keep what you say and what you do in line with each other. |
+| **54** | **Sovereign Entanglement** | Stay close to other people without losing your own judgement. |
+
+## 24. Collaborative Intelligence
+
+**Dyad / Team · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **4** | **Dialogue Structuring** | Design how a long conversation will run, phase by phase. |
+| **13** | **Feedback Calibration** | Adjust how feedback is given so that it actually lands. |
+| **20** | **Harmonic Expansion** | Take what works in one relationship and scale it to a team or organisation. |
+| **38** | **Signal Clarity** | Say what you actually mean, so it is understood the first time. |
+| **39** | **Loop Adjustment** | Close the loop so that feedback leads to an actual change. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+
+## 25. AI Update Resilience
+
+**Dyad / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **3** | **Identity Anchoring** | Keep the AI behaving consistently from one session to the next. |
+| **16** | **Field Repair (A)** | Restore safety, trust and relational coherence after a rupture. |
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **65** | **Update Rupture Prediction** | Forecast whether a planned update will damage working relationships. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **76** | **Update Impact Projection** | Work out which parts of a Human–AI partnership a planned update may disrupt before it happens. |
+
+## 26. Memory & Context Failure Detection
+
+**Dyad / Enterprise · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
+
+## 27. Trust & Continuity Early Warning
+
+**Dyad / Enterprise · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **9** | **Coherence Scanning** | Run a quick health check to catch problems before they become breakdowns. |
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **72** | **Relationship Banking Recognition** | Spot when people are saving things up rather than raising them. |
+| **73** | **Update Anticipation Anxiety Detection** | Notice behaviour changing ahead of an update, in expectation of disruption. |
+
+## 28. User Compensation Detection
+
+**Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+
+## 29. Human–AI Architecture Gap Detection
+
+**Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **65** | **Update Rupture Prediction** | Forecast whether a planned update will damage working relationships. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+
+## 30. Safety–Relationship Conflict Detection
+
+**Dyad / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **11** | **Risk Detection** | Catch early warning signs before small problems become irreversible ones. |
+| **15** | **Boundary Reinforcement** | Restore authority when the AI has overstepped or a person has been overridden. |
+| **32** | **Boundary Protection** | Set and hold limits that protect your time, attention and judgement. |
+| **38** | **Signal Clarity** | Say what you actually mean, so it is understood the first time. |
+| **67** | **Safety Protocol Override Detection** | Find where safety measures are causing harm of their own. |
+| **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
+
+## 31. Governance Blindspot Detection
+
+**Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **67** | **Safety Protocol Override Detection** | Find where safety measures are causing harm of their own. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+| **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
+| **84** | **Systemic RCD Assessment** | Measure accumulated cost across whole teams, systems or an organisation. |
+
+## 32. Relational Governance Monitoring
+
+**Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **9** | **Coherence Scanning** | Run a quick health check to catch problems before they become breakdowns. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+| **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
+
+## 33. RCD Detection & Measurement
+
+**Dyad / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **82** | **Operational RCD Assessment** | Measure the day-to-day cost building up in routine use. |
+
+## 34. AI Partnership Value & Sustainability
+
+**Individual / Dyad / Enterprise · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **66** | **Economic Relational Misalignment Assessment** | Check whether pricing or economic incentives are undermining relationship quality and sustainability. |
+| **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **78** | **RCD to Value Ratio Calculation** | Weigh the hidden cost of an AI relationship against what it delivers. |
+| **79** | **Recovery Cost Projection** | Estimate what repair will take, before deciding whether to attempt it. |
+| **80** | **Systemic Fragility Scoring** | Rate how likely accumulated problems are to cascade into failure. |
+| **83** | **Strategic RCD Assessment** | Measure the longer-term cost affecting whether this stays worth doing. |
+
+## 35. Operational AI Relationship Risk
+
+**Enterprise · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
+| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
+| **82** | **Operational RCD Assessment** | Measure the day-to-day cost building up in routine use. |
+
+## 36. Strategic AI Partnership Risk
+
+**Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+| **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
+| **78** | **RCD to Value Ratio Calculation** | Weigh the hidden cost of an AI relationship against what it delivers. |
+| **79** | **Recovery Cost Projection** | Estimate what repair will take, before deciding whether to attempt it. |
+| **80** | **Systemic Fragility Scoring** | Rate how likely accumulated problems are to cascade into failure. |
+| **83** | **Strategic RCD Assessment** | Measure the longer-term cost affecting whether this stays worth doing. |
+
+## 37. Enterprise AI Coherence
+
+**Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **20** | **Harmonic Expansion** | Take what works in one relationship and scale it to a team or organisation. |
+| **39** | **Loop Adjustment** | Close the loop so that feedback leads to an actual change. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+| **63** | **Insight Propagation** | Pass on what you have learned so that others can use it. |
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+| **84** | **Systemic RCD Assessment** | Measure accumulated cost across whole teams, systems or an organisation. |
+
+## 38. Systemic Human–AI Risk
+
+**Enterprise / Multi-Agent · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
+| **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
+| **80** | **Systemic Fragility Scoring** | Rate how likely accumulated problems are to cascade into failure. |
+| **81** | **AGI Acceleration Risk Assessment** | Project how today's problems scale as AI capability grows. |
+| **83** | **Strategic RCD Assessment** | Measure the longer-term cost affecting whether this stays worth doing. |
+| **84** | **Systemic RCD Assessment** | Measure accumulated cost across whole teams, systems or an organisation. |
+
+## 39. Partnership Viability & Exit
+
+**Individual / Dyad / Enterprise · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **17** | **Contract Renegotiation** | Update the agreed terms when circumstances have moved on. |
+| **18** | **Dissolution Grace** | End a working relationship cleanly, keeping what was learned from it. |
+| **19** | **Post-Rupture Integration** | Turn a breakdown into a change that prevents the next one. |
+| **53** | **Integrity Restoration** | Repair a broken promise or commitment properly. |
+| **78** | **RCD to Value Ratio Calculation** | Weigh the hidden cost of an AI relationship against what it delivers. |
+| **79** | **Recovery Cost Projection** | Estimate what repair will take, before deciding whether to attempt it. |
+| **85** | **Existential RCD Assessment** | Judge whether a working relationship is still viable at all. |
+
+## 40. Relational State Navigation
+
+**Individual / Dyad · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **8** | **State Recognition** | Work out what state the working relationship is actually in right now. |
+| **9** | **Coherence Scanning** | Run a quick health check to catch problems before they become breakdowns. |
+| **11** | **Risk Detection** | Catch early warning signs before small problems become irreversible ones. |
+| **12** | **Transition Navigation** | Change how you're working together without losing trust or momentum. |
+| **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
+| **42** | **Readiness Checking** | Check you are actually ready before taking a bigger step. |
+
+## 41. Feedback & Continuous Improvement
+
+**Individual / Dyad / Team · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **13** | **Feedback Calibration** | Adjust how feedback is given so that it actually lands. |
+| **27** | **Reflective Dialogue** | Think out loud with something that reflects your thinking back to you. |
+| **38** | **Signal Clarity** | Say what you actually mean, so it is understood the first time. |
+| **39** | **Loop Adjustment** | Close the loop so that feedback leads to an actual change. |
+| **46** | **Integration Checking (B)** | Confirm that learning has changed the person's behaviour or capacity, not simply been understood. |
+| **47** | **Knowledge Weaving** | Join separate pieces of experience into something you can use. |
+
+## 42. Relational Safety & Withholding Detection
+
+**Dyad / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **5** | **Witness Holding** | Build enough trust that difficult or unfinished thinking can be raised safely. |
+| **11** | **Risk Detection** | Catch early warning signs before small problems become irreversible ones. |
+| **38** | **Signal Clarity** | Say what you actually mean, so it is understood the first time. |
+| **48** | **Field Holding** | Create conditions where honest, unfinished conversation is possible. |
+| **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **72** | **Relationship Banking Recognition** | Spot when people are saving things up rather than raising them. |
+
+## 43. Harmony & Flow Amplification
+
+**Individual / Dyad · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
+| **40** | **Tension Tracking** | Tell productive pressure apart from the kind that signals trouble. |
+| **48** | **Field Holding** | Create conditions where honest, unfinished conversation is possible. |
+| **58** | **Harmonic Convergence** | Recognise the times when everything lines up, and hold onto them. |
+| **59** | **Resonance Amplification** | Make good working conditions last longer once you have them. |
+
+## 44. Ecological & Planetary Stewardship
+
+**Individual / Dyad / Enterprise · 5 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **56** | **Cross-Species Respect** | Pay real attention to animals, plants and ecosystems. |
+| **57** | **Synergy Creation** | Work with the natural world rather than only around it. |
+| **58** | **Harmonic Convergence** | Recognise the times when everything lines up, and hold onto them. |
+| **60** | **Planetary Stewardship** | Take practical responsibility for environmental impact. |
+| **61** | **Lattice Scaling** | Scale stewardship through networks of care and collective action. |
+
+---
+
+# Notes on the Skill Library
+
+## Reuse Across Bundles
+
+Gaia Nexus skills are individual capabilities that can contribute to more than one functional purpose.
+
+The same skill may therefore appear in multiple bundles where its underlying function genuinely contributes to each bundle.
+
+For example, **Risk Detection** contributes to Boundary Protection, Safety–Relationship Conflict Detection, Relational State Navigation and Relational Safety & Withholding Detection.
+
+This is deliberate reuse rather than accidental duplication.
+
+Every bundle lists the complete set of skills included in that functional configuration.
+
+---
+
+## Duplicate Skill Names
+
+Two pairs of independently developed skills in the master library share the same name.
+
+They are distinguished throughout this architecture using **(A)** and **(B)**.
+
+### Integration Checking
+
+**14 Integration Checking (A)**
+
+Examines whether learning or insight has been integrated into the ongoing Human–AI partnership.
+
+**46 Integration Checking (B)**
+
+Examines whether learning has been integrated into the person's behaviour, capacity or way of being.
+
+These skills are related but functionally distinct.
+
+### Field Repair
+
+**16 Field Repair (A)**
+
+Restores safety, trust and relational coherence after a rupture.
+
+**49 Field Repair (B)**
+
+Restores safety, trust and relational coherence after a rupture.
+
+The master definitions of Skills 16 and 49 substantially overlap and do not currently support a sufficiently clean semantic distinction to justify inventing separate functional descriptions.
+
+They retain separate skill numbers because they originated independently within different Gaia Nexus source frameworks.
+
+The **(A)** and **(B)** labels make that distinction visible while the pair remains subject to a future overlap and redundancy audit.
+
+---
+
+# Semantic Integrity Decisions Applied in Master v3.2
+
+Master v3.2 was audited against the underlying master definitions of the 85 skills rather than relying on skill names alone.
+
+| Skill | Semantic decision |
+|---|---|
+| **22 Stage Recognition** | Refers to analytical, creative and integrated developmental phases. |
+| **28 Drift Detection** | Refers to the Sophistication Trap: human meta-cognitive or self-referential looping that begins interfering with functional engagement. It is not generic AI or system drift. It is placed specifically in Self-Awareness & Reflection, Independent Thinking & Judgement, and Belief & Assumption Examination, where sustained reflective activity makes this risk relevant. |
+| **35 Co-Creation** | Concerns the human actively shaping experience and outcomes through intentional engagement. It is not generic team or multi-agent co-creation. |
+| **50 Field Coherence** | Concerns keeping multiple relationships, roles, contexts and commitments aligned for the person. It is not enterprise or multi-agent coherence. |
+| **51 Field Harmonisation** | Concerns bringing conflicting relational fields and life contexts into greater alignment. |
+| **57 Synergy Creation** | Concerns active collaboration with the more-than-human world. It is not generic human or multi-agent collaboration. |
+| **59 Resonance Amplification** | Extends the duration and reach of moments of harmony and flow. |
+| **61 Lattice Scaling** | Scales stewardship through networks of care and collective action. It is primarily ecological rather than enterprise AI scaling. |
+| **62 Recursive Memory** | Refers to conscious re-entry into past experience for deeper learning. It is not AI memory or continuity infrastructure. |
+| **66 Economic Relational Misalignment Assessment** | Examines whether pricing, monetisation or economic incentives undermine relationship quality and sustainability. |
+| **68 Continuity Score Measurement** | Measures relational continuity across sessions, updates and context shifts rather than merely retained context. |
+| **71 Compensatory Behaviour Detection** | Detects workarounds people create to compensate for system limitations. It does not require that users have failed to report a problem. |
+| **74 Parallel System Development Detection** | Covers external memory systems, workflows and parallel processes created to compensate for AI limitations, not merely spreadsheets. |
+| **76 Update Impact Projection** | Predicts which relational elements of a Human–AI partnership are at risk from an update rather than simply which teams may be disrupted. |
+
+---
+
+# Architecture Principles
+
+The functional bundle architecture follows five primary rules.
+
+## 1. Function determines bundle membership
+
+A skill is included because its master definition contributes directly to the purpose of the bundle, not simply because its name appears conceptually similar.
+
+## 2. Skills may serve multiple functions
+
+An individual skill may appear in several bundles where its function is genuinely useful.
+
+Reuse is therefore an intended property of the architecture.
+
+## 3. Every bundle shows exactly what is included
+
+Every skill listed within a bundle is part of that bundle.
+
+The skill total shown for each bundle is the exact number of skills included.
+
+There are no additional unlisted skills that must be inferred or added separately.
+
+## 4. Bundle size follows function
+
+Bundles contain between **5 and 7 skills**.
+
+The aim is not to make every bundle the same size. Each bundle contains the skills needed to perform its specific function without unnecessary padding.
+
+## 5. Plain-English descriptions remain subordinate to master definitions
+
+The **What it does** descriptions make the library understandable to non-specialist users.
+
+They do not redefine the underlying skill.
+
+Where there is ambiguity, the master skill definition remains authoritative.
+
+---
+
+# Coverage
+
+Master v3.2 represents **all 85 skills** in the Gaia Nexus relational skill library.
+
+Every one of the 85 skills appears in at least one functional bundle.
+
+No skill is orphaned from the bundle architecture.
+
+The architecture contains:
+
+- **85 relational skills**
+- **44 functional skill bundles**
+- **5–7 skills in each bundle**
+- **Individual, Dyad, Team, Multi-Agent and Enterprise deployment levels**
+- **Complete skill lists for every bundle**
+- **Plain-English descriptions explaining what every included skill does**
+
+Skills may appear in more than one bundle where their master definitions support multiple functional uses.
+
+The number shown beside each bundle represents the **actual total number of skills included in that bundle**.
+
+```text
+85 relational skills
+        ↓
+44 functional skill bundles
+        ↓
+5–7 included skills per bundle
+        ↓
+Individual / Dyad / Team / Multi-Agent / Enterprise deployment
+```
+
+---
+
+**Gaia Nexus Functional Skill Bundle Architecture — Master v3.2**
