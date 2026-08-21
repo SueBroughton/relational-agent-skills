@@ -1,15 +1,15 @@
 # Gaia Nexus Skills Index
 
-**Master v3.2**
+**Master v4.0**
 
-Gaia Nexus contains a library of 85 relational skills that can be combined in different ways to create functional bundles for different purposes.
+Gaia Nexus contains a library of 96 relational skills that can be combined in different ways to create functional bundles for different purposes.
 
-This architecture organises those skills into 44 practical bundles spanning Human–AI partnership, human capability, creativity and discovery, collaborative intelligence, governance, enterprise risk, relational monitoring and ecological stewardship.
+This architecture organises those skills into 47 practical bundles spanning Human–AI partnership, human capability, creativity and discovery, collaborative intelligence, governance, enterprise risk, relational monitoring, coherence capacity and oversight, and ecological stewardship.
 
 ```text
-85 relational skills
+96 relational skills
         ↓
-44 functional skill bundles
+47 functional skill bundles
         ↓
 Individual / Dyad / Team / Multi-Agent / Enterprise deployment
 ```
@@ -109,6 +109,12 @@ The duplicated names currently identified are:
 
 44. [Ecological & Planetary Stewardship](#44-ecological--planetary-stewardship)
 
+## Coherence Centric Governance
+
+45. [Coherence Capacity & Recovery](#45-coherence-capacity--recovery)
+46. [Human Oversight Integrity](#46-human-oversight-integrity)
+47. [Coherence Governance Dashboard](#47-coherence-governance-dashboard)
+
 ---
 
 # Bundle Directory
@@ -120,12 +126,12 @@ The duplicated names currently identified are:
 | **3** | **Human Agency & Sovereignty** | Individual / Dyad | **7** | Protects independent judgement, choice, reality-testing and the human's ability to challenge or redirect AI without losing connection. |
 | **4** | **Human Identity Preservation** | Individual / Dyad | **5** | Helps a person remain recognisably themselves through Human–AI engagement, developmental change and relational depth. |
 | **5** | **AI Identity & Partnership Continuity** | Dyad / Enterprise | **6** | Maintains a recognisable AI relational presence while preserving agreements, accumulated learning and measurable continuity across sessions and changes. |
-| **6** | **Partnership Health Check** | Dyad | **6** | Checks whether the Human–AI relationship remains ready, coherent, balanced, continuous and trusted. |
+| **6** | **Partnership Health Check** | Dyad | **7** | Checks whether the Human–AI relationship remains ready, coherent, balanced, continuous and trusted, against an explicit positive definition of partnership health. |
 | **7** | **Trust Building & Maintenance** | Individual / Dyad | **7** | Builds trust through explicit agreements, safe disclosure, effective feedback, clear signals and reliable follow-through. |
 | **8** | **Boundary Protection** | Individual / Dyad | **6** | Recognises boundary pressure, restores authority and helps the human navigate complicated relational involvement without surrendering judgement. |
 | **9** | **Rupture Detection & Repair** | Dyad | **7** | Detects relational breakdown, creates conditions for honest repair and restores safety, trust and workable commitments. |
 | **10** | **Learning From Failure** | Individual / Dyad / Team | **6** | Converts mistakes and ruptures into changes that reduce recurrence and strengthen future practice. |
-| **11** | **Human Readiness** | Individual / Dyad / Enterprise | **6** | Assesses whether sufficient capability, balance and developmental readiness exist before greater complexity or responsibility is introduced. |
+| **11** | **Human Readiness** | Individual / Dyad / Enterprise | **7** | Assesses whether sufficient capability, balance, contestability and developmental readiness exist before greater complexity or responsibility is introduced. |
 | **12** | **Development & Growth Navigation** | Individual / Dyad | **6** | Identifies developmental stage and supports appropriate transitions without forcing progression before readiness is present. |
 | **13** | **Self-Awareness & Reflection** | Individual / Dyad | **7** | Helps people see their own patterns, assumptions and blind spots clearly and compassionately while recognising when reflection itself becomes counterproductive. |
 | **14** | **Independent Thinking & Judgement** | Individual / Dyad | **7** | Strengthens the ability to question assumptions, test possibilities and reach conclusions without simply accepting an AI interpretation or becoming trapped in excessive reflection. |
@@ -146,19 +152,22 @@ The duplicated names currently identified are:
 | **29** | **Human–AI Architecture Gap Detection** | Enterprise | **6** | Identifies where system architecture appears technically functional but fails to support the way sustained Human–AI work actually occurs. |
 | **30** | **Safety–Relationship Conflict Detection** | Dyad / Enterprise | **6** | Detects situations where safety mechanisms, boundaries and relational needs interact in ways that create unintended trust or usability problems. |
 | **31** | **Governance Blindspot Detection** | Enterprise | **6** | Identifies relational risks, workarounds and architectural conditions that conventional governance may not be observing. |
-| **32** | **Relational Governance Monitoring** | Enterprise | **6** | Provides measurable indicators of changing Human–AI relational conditions so governance teams can see emerging deterioration earlier. |
+| **32** | **Relational Governance Monitoring** | Enterprise | **7** | Provides measurable indicators of changing Human–AI relational conditions and synthesises them into governance-ready health reporting. |
 | **33** | **RCD Detection & Measurement** | Dyad / Enterprise | **6** | Identifies and measures Relational Coherence Debt before routine friction accumulates into larger failure. |
 | **34** | **AI Partnership Value & Sustainability** | Individual / Dyad / Enterprise | **7** | Tests whether Human–AI collaboration remains worthwhile after relational cost, economic alignment, recovery burden and fragility are considered. |
-| **35** | **Operational AI Relationship Risk** | Enterprise | **5** | Shows where relational friction is already affecting routine productivity, user behaviour, workload and operational stability. |
-| **36** | **Strategic AI Partnership Risk** | Enterprise | **6** | Assesses whether accumulated relational debt threatens the longer-term viability or value of an organisation's AI strategy. |
-| **37** | **Enterprise AI Coherence** | Enterprise | **6** | Determines whether Human–AI learning and practices are becoming a coherent organisational capability rather than fragmented local activity. |
-| **38** | **Systemic Human–AI Risk** | Enterprise / Multi-Agent | **6** | Detects when relational debt has moved beyond individual partnerships and threatens system-wide resilience, governance or collective capability. |
+| **35** | **Operational AI Relationship Risk** | Enterprise | **7** | Shows where relational friction, rising coherence load and saturation risk are already affecting routine productivity, oversight and operational stability. |
+| **36** | **Strategic AI Partnership Risk** | Enterprise | **7** | Assesses whether accumulated relational debt and forecast coherence load threaten the longer-term viability or value of an organisation's AI strategy. |
+| **37** | **Enterprise AI Coherence** | Enterprise | **7** | Determines whether Human–AI learning and practices are becoming a coherent organisational capability and makes enterprise coherence health visible over time. |
+| **38** | **Systemic Human–AI Risk** | Enterprise / Multi-Agent | **7** | Detects when relational debt and projected coherence load have moved beyond individual partnerships and threaten system-wide resilience, governance or collective capability. |
 | **39** | **Partnership Viability & Exit** | Individual / Dyad / Enterprise | **7** | Helps determine whether a partnership should continue, transform, transition or end and supports deliberate closure when necessary. |
-| **40** | **Relational State Navigation** | Individual / Dyad | **6** | Identifies the current relational condition and selects a response appropriate to that state rather than applying a generic intervention. |
+| **40** | **Relational State Navigation** | Individual / Dyad | **7** | Identifies the current relational condition, distinguishes healthy evolution from degradation and selects a response appropriate to that state. |
 | **41** | **Feedback & Continuous Improvement** | Individual / Dyad / Team | **6** | Makes sure feedback is understandable, acted upon, integrated and used to improve future behaviour. |
 | **42** | **Relational Safety & Withholding Detection** | Dyad / Enterprise | **6** | Detects when people no longer feel consistently safe enough to speak openly and begin withholding, delaying or banking important communication. |
 | **43** | **Harmony & Flow Amplification** | Individual / Dyad | **5** | Recognises conditions of alignment and flow, helps sustain them and extends their benefits into other parts of life or work. |
 | **44** | **Ecological & Planetary Stewardship** | Individual / Dyad / Enterprise | **5** | Extends relational intelligence beyond Human–AI interaction into respectful engagement with living systems, stewardship and collective ecological action. |
+| **45** | **Coherence Capacity & Recovery** | Dyad / Team / Enterprise | **6** | Measures whether Human–AI work is operating within sustainable coherence capacity, detects saturation early, forecasts load and supports structured recovery. |
+| **46** | **Human Oversight Integrity** | Individual / Dyad / Enterprise | **7** | Protects the human's ability to question, review, calibrate and independently validate AI outputs as workload and reliance increase. |
+| **47** | **Coherence Governance Dashboard** | Enterprise | **7** | Brings relational debt, capacity, saturation, oversight quality and trajectory indicators into a coherent governance view for authorised human review. |
 
 ---
 
@@ -229,7 +238,7 @@ The duplicated names currently identified are:
 
 ## 6. Partnership Health Check
 
-**Dyad · 6 skills**
+**Dyad · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -239,6 +248,7 @@ The duplicated names currently identified are:
 | **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
 | **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
 | **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
+| **86** | **Positive Partnership Health Definition** | Define what flourishing partnership health looks like so monitoring has a positive baseline, not only failure signals. |
 
 ## 7. Trust Building & Maintenance
 
@@ -296,7 +306,7 @@ The duplicated names currently identified are:
 
 ## 11. Human Readiness
 
-**Individual / Dyad / Enterprise · 6 skills**
+**Individual / Dyad / Enterprise · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -306,6 +316,7 @@ The duplicated names currently identified are:
 | **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
 | **42** | **Readiness Checking** | Check you are actually ready before taking a bigger step. |
 | **43** | **Stage Advancement** | Make the step up once readiness has been confirmed. |
+| **91** | **Override Decay Tracking** | Track whether the human is challenging AI less under load, which may signal weakening contestability or sovereignty. |
 
 ## 12. Development & Growth Navigation
 
@@ -501,7 +512,7 @@ The duplicated names currently identified are:
 | **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
 | **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
 | **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
-| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **71** | **Compensatory Behavior Detection** | Notice when people create workarounds to compensate for system limitations. |
 | **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
 
 ## 27. Trust & Continuity Early Warning
@@ -527,7 +538,7 @@ The duplicated names currently identified are:
 | **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
 | **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
 | **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
-| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **71** | **Compensatory Behavior Detection** | Notice when people create workarounds to compensate for system limitations. |
 | **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
 | **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
 
@@ -540,7 +551,7 @@ The duplicated names currently identified are:
 | **64** | **Memory Expectation Gap Detection** | Spot when resets and lost context are breaking what people expected. |
 | **65** | **Update Rupture Prediction** | Forecast whether a planned update will damage working relationships. |
 | **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
-| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **71** | **Compensatory Behavior Detection** | Notice when people create workarounds to compensate for system limitations. |
 | **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
 | **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
 
@@ -565,14 +576,14 @@ The duplicated names currently identified are:
 |---:|---|---|
 | **67** | **Safety Protocol Override Detection** | Find where safety measures are causing harm of their own. |
 | **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
-| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **71** | **Compensatory Behavior Detection** | Notice when people create workarounds to compensate for system limitations. |
 | **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
 | **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
 | **84** | **Systemic RCD Assessment** | Measure accumulated cost across whole teams, systems or an organisation. |
 
 ## 32. Relational Governance Monitoring
 
-**Enterprise · 6 skills**
+**Enterprise · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -582,6 +593,7 @@ The duplicated names currently identified are:
 | **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
 | **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
 | **77** | **Governance Blindspot Index** | Measure what your oversight framework is not looking at. |
+| **96** | **Coherence Health Dashboarding** | Synthesize authorised coherence indicators into a governance-ready view without turning observation into enforcement. |
 
 ## 33. RCD Detection & Measurement
 
@@ -593,7 +605,7 @@ The duplicated names currently identified are:
 | **68** | **Continuity Score Measurement** | Measure how well relational continuity survives across sessions, updates and context changes. |
 | **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
 | **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
-| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **71** | **Compensatory Behavior Detection** | Notice when people create workarounds to compensate for system limitations. |
 | **82** | **Operational RCD Assessment** | Measure the day-to-day cost building up in routine use. |
 
 ## 34. AI Partnership Value & Sustainability
@@ -612,19 +624,21 @@ The duplicated names currently identified are:
 
 ## 35. Operational AI Relationship Risk
 
-**Enterprise · 5 skills**
+**Enterprise · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
 | **69** | **Trust Erosion Rate Tracking** | Track how fast trust is being lost through small repeated failures. |
 | **70** | **Adaptation Lag Measurement** | Measure the delay between a person changing and the system catching up. |
-| **71** | **Compensatory Behaviour Detection** | Notice when people create workarounds to compensate for system limitations. |
+| **71** | **Compensatory Behavior Detection** | Notice when people create workarounds to compensate for system limitations. |
 | **74** | **Parallel System Development Detection** | Detect external memory systems, workflows or processes built to compensate for AI limitations. |
 | **82** | **Operational RCD Assessment** | Measure the day-to-day cost building up in routine use. |
+| **87** | **Coherence Utilization Gauge** | Measure the relationship between coherence demand and sustainable capacity. |
+| **88** | **Saturation Detection & Alerting** | Detect patterns suggesting that oversight capacity may be approaching saturation and flag them for human review. |
 
 ## 36. Strategic AI Partnership Risk
 
-**Enterprise · 6 skills**
+**Enterprise · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -634,10 +648,11 @@ The duplicated names currently identified are:
 | **79** | **Recovery Cost Projection** | Estimate what repair will take, before deciding whether to attempt it. |
 | **80** | **Systemic Fragility Scoring** | Rate how likely accumulated problems are to cascade into failure. |
 | **83** | **Strategic RCD Assessment** | Measure the longer-term cost affecting whether this stays worth doing. |
+| **90** | **Load Forecasting** | Project future coherence demand and utilisation so capacity risks can be addressed before they become operational problems. |
 
 ## 37. Enterprise AI Coherence
 
-**Enterprise · 6 skills**
+**Enterprise · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -647,10 +662,11 @@ The duplicated names currently identified are:
 | **63** | **Insight Propagation** | Pass on what you have learned so that others can use it. |
 | **75** | **Architecture Coherence Gap Analysis** | Find where the technology has outrun what it can actually support. |
 | **84** | **Systemic RCD Assessment** | Measure accumulated cost across whole teams, systems or an organisation. |
+| **96** | **Coherence Health Dashboarding** | Synthesize authorised coherence indicators into an enterprise view of partnership health and trajectory. |
 
 ## 38. Systemic Human–AI Risk
 
-**Enterprise / Multi-Agent · 6 skills**
+**Enterprise / Multi-Agent · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -660,6 +676,7 @@ The duplicated names currently identified are:
 | **81** | **AGI Acceleration Risk Assessment** | Project how today's problems scale as AI capability grows. |
 | **83** | **Strategic RCD Assessment** | Measure the longer-term cost affecting whether this stays worth doing. |
 | **84** | **Systemic RCD Assessment** | Measure accumulated cost across whole teams, systems or an organisation. |
+| **90** | **Load Forecasting** | Project future coherence demand to identify periods where system-wide oversight capacity may be strained. |
 
 ## 39. Partnership Viability & Exit
 
@@ -677,7 +694,7 @@ The duplicated names currently identified are:
 
 ## 40. Relational State Navigation
 
-**Individual / Dyad · 6 skills**
+**Individual / Dyad · 7 skills**
 
 | # | Skill | What it does |
 |---:|---|---|
@@ -687,6 +704,7 @@ The duplicated names currently identified are:
 | **12** | **Transition Navigation** | Change how you're working together without losing trust or momentum. |
 | **36** | **Balance Monitoring** | Notice when there is too much structure, or too little. |
 | **42** | **Readiness Checking** | Check you are actually ready before taking a bigger step. |
+| **95** | **Drift vs. Evolution Distinction** | Distinguish intentional growth from gradual degradation so change is interpreted in context. |
 
 ## 41. Feedback & Continuous Improvement
 
@@ -737,6 +755,50 @@ The duplicated names currently identified are:
 | **58** | **Harmonic Convergence** | Recognise the times when everything lines up, and hold onto them. |
 | **60** | **Planetary Stewardship** | Take practical responsibility for environmental impact. |
 | **61** | **Lattice Scaling** | Scale stewardship through networks of care and collective action. |
+
+---
+
+
+## 45. Coherence Capacity & Recovery
+
+**Dyad / Team / Enterprise · 6 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **7** | **Readiness Assessment** | Check whether the human and partnership are ready for the level of complexity and load being introduced. |
+| **36** | **Balance Monitoring** | Notice when the working pattern has become structurally imbalanced or unsustainable. |
+| **87** | **Coherence Utilization Gauge** | Measure coherence demand against sustainable coherence capacity using context-calibrated indicators. |
+| **88** | **Saturation Detection & Alerting** | Detect patterns suggesting the partnership may be approaching saturation and report them for human review. |
+| **89** | **Recovery Window Scheduling** | Recommend structured low-load recovery, recalibration and independent practice when capacity restoration may be beneficial. |
+| **90** | **Load Forecasting** | Project future coherence demand and utilisation so high-load periods can be anticipated rather than discovered in crisis. |
+
+## 46. Human Oversight Integrity
+
+**Individual / Dyad / Enterprise · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **34** | **Reality Checking** | Test whether conclusions and interpretations remain grounded rather than being accepted because the AI sounds convincing. |
+| **42** | **Readiness Checking** | Check whether the human is genuinely ready to exercise judgement before higher-stakes work proceeds. |
+| **91** | **Override Decay Tracking** | Track whether human contestability is declining under load or increasing reliance. |
+| **92** | **Review Time Compression Detection** | Detect whether review is becoming progressively faster in ways that may indicate skimming or rubber-stamping. |
+| **93** | **Confidence Divergence Monitoring** | Track widening gaps between AI confidence and human calibration that may undermine independent judgement. |
+| **94** | **Oversight Quality Validation** | Validate oversight quality against independently established historical defects or external test data. |
+| **95** | **Drift vs. Evolution Distinction** | Distinguish genuine capability growth from adaptation that may actually conceal declining sovereignty or oversight quality. |
+
+## 47. Coherence Governance Dashboard
+
+**Enterprise · 7 skills**
+
+| # | Skill | What it does |
+|---:|---|---|
+| **77** | **Governance Blindspot Index** | Measure important Human–AI conditions that existing oversight may not be seeing. |
+| **82** | **Operational RCD Assessment** | Measure relational coherence debt already affecting day-to-day Human–AI work. |
+| **87** | **Coherence Utilization Gauge** | Show whether current coherence demand is within estimated sustainable capacity. |
+| **88** | **Saturation Detection & Alerting** | Surface early warning indicators that oversight capacity may be approaching saturation. |
+| **94** | **Oversight Quality Validation** | Provide externally grounded evidence about whether human oversight is still functioning effectively. |
+| **95** | **Drift vs. Evolution Distinction** | Show whether observed change appears to represent healthy evolution, mixed trajectory or degradation. |
+| **96** | **Coherence Health Dashboarding** | Synthesize authorised indicators across the coherence layers into a governance-ready view for human interpretation and disposition. |
 
 ---
 
@@ -792,9 +854,9 @@ The **(A)** and **(B)** labels make that distinction visible while the pair rema
 
 ---
 
-# Semantic Integrity Decisions Applied in Master v3.2
+# Semantic Integrity Decisions Applied in Master v4.0
 
-Master v3.2 was audited against the underlying master definitions of the 85 skills rather than relying on skill names alone.
+Master v4.0 was audited against the underlying master definitions of the 96 skills rather than relying on skill names alone.
 
 | Skill | Semantic decision |
 |---|---|
@@ -809,9 +871,20 @@ Master v3.2 was audited against the underlying master definitions of the 85 skil
 | **62 Recursive Memory** | Refers to conscious re-entry into past experience for deeper learning. It is not AI memory or continuity infrastructure. |
 | **66 Economic Relational Misalignment Assessment** | Examines whether pricing, monetisation or economic incentives undermine relationship quality and sustainability. |
 | **68 Continuity Score Measurement** | Measures relational continuity across sessions, updates and context shifts rather than merely retained context. |
-| **71 Compensatory Behaviour Detection** | Detects workarounds people create to compensate for system limitations. It does not require that users have failed to report a problem. |
+| **71 Compensatory Behavior Detection** | Detects workarounds people create to compensate for system limitations. It does not require that users have failed to report a problem. |
 | **74 Parallel System Development Detection** | Covers external memory systems, workflows and parallel processes created to compensate for AI limitations, not merely spreadsheets. |
 | **76 Update Impact Projection** | Predicts which relational elements of a Human–AI partnership are at risk from an update rather than simply which teams may be disrupted. |
+| **86 Positive Partnership Health Definition** | Defines a positive health baseline for Human–AI partnership rather than treating health as only the absence of failure. |
+| **87 Coherence Utilization Gauge** | Compares the current demand placed on human oversight with the partnership's estimated sustainable capacity. |
+| **88 Saturation Detection & Alerting** | Uses several leading indicators together to flag when oversight may be becoming overloaded. |
+| **89 Recovery Window Scheduling** | Recommends structured low-load recovery and calibration periods; it does not enforce them. |
+| **90 Load Forecasting** | Projects future oversight demand so likely pressure points can be discussed before they arrive. |
+| **91 Override Decay Tracking** | Tracks whether human challenge and correction of AI outputs are changing over time. Contestability is read as a healthy band rather than a target to maximise. |
+| **92 Review Time Compression Detection** | Tracks whether people are spending progressively less time reviewing AI outputs. |
+| **93 Confidence Divergence Monitoring** | Tracks the gap between AI confidence and human ability to judge whether outputs are reliable. |
+| **94 Oversight Quality Validation** | Uses independently known historical defects to assess whether human review is catching problems. The agent does not seed errors into live work and does not serve as its own source of known defects. |
+| **95 Drift vs. Evolution Distinction** | Distinguishes genuine partnership growth from changes that may reflect declining capability or sovereignty. |
+| **96 Coherence Health Dashboarding** | Brings authorised coherence measures together for human review without taking decision authority. |
 
 ---
 
@@ -853,18 +926,48 @@ Where there is ambiguity, the master skill definition remains authoritative.
 
 ---
 
+## Skill Set Coverage in Master v4.0
+
+The 96 skills currently represented in this index come from:
+
+- **Skills 1–63** — BRIDGE, BREAKTHROUGH and Universal Principles foundations
+- **Skills 64–85** — Academic paper and Relational Coherence Debt skills
+- **Skills 86–96** — Coherence Centric Governance skills
+
+Future skill sets can be added to the same functional architecture. Bundle membership should continue to be based on what each skill actually does rather than which source set it came from.
+
+---
+
+## Reporting Boundary
+
+Skills 86–96 observe, calculate, report and recommend. They do not enforce or execute operational decisions.
+
+Where a measure concerns the agent's own outputs, the finding requires validation from a source other than the agent.
+
+Measures concerning a person leave the partnership only under a disclosure rule agreed in advance with that person, which sets what is released, at what granularity, on whose authorisation, and what may be withheld.
+
+---
+
+## Validation Status
+
+These skills derive from sustained observational practice and from the published framework papers. They have not been validated through controlled study. They are offered as structured practice, not as measured intervention.
+
+The thresholds, bands and weights used in Skills 86–96 are reference values requiring calibration against operational data in each deployment context. They are stated hypotheses, not measured predictors.
+
+---
+
 # Coverage
 
-Master v3.2 represents **all 85 skills** in the Gaia Nexus relational skill library.
+Master v4.0 represents **all 96 skills** in the Gaia Nexus relational skill library.
 
-Every one of the 85 skills appears in at least one functional bundle.
+Every one of the 96 skills appears in at least one functional bundle.
 
 No skill is orphaned from the bundle architecture.
 
 The architecture contains:
 
-- **85 relational skills**
-- **44 functional skill bundles**
+- **96 relational skills**
+- **47 functional skill bundles**
 - **5–7 skills in each bundle**
 - **Individual, Dyad, Team, Multi-Agent and Enterprise deployment levels**
 - **Complete skill lists for every bundle**
@@ -875,9 +978,9 @@ Skills may appear in more than one bundle where their master definitions support
 The number shown beside each bundle represents the **actual total number of skills included in that bundle**.
 
 ```text
-85 relational skills
+96 relational skills
         ↓
-44 functional skill bundles
+47 functional skill bundles
         ↓
 5–7 included skills per bundle
         ↓
@@ -886,4 +989,4 @@ Individual / Dyad / Team / Multi-Agent / Enterprise deployment
 
 ---
 
-**Gaia Nexus Functional Skill Bundle Architecture — Master v3.2**
+**Gaia Nexus Functional Skill Bundle Architecture — Master v4.0**
